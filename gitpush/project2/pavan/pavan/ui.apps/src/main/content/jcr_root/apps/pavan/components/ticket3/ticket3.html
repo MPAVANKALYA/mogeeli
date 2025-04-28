@@ -1,0 +1,16 @@
+<p>sling model post construct</p>
+<sly data-sly-use.authorInfo="com.pavan.core.models.AuthorInfoModel">
+
+    <!-- Show First Name and Last Name only if showFields is true -->
+    <sly data-sly-test="${authorInfo.showFields}">
+        <p><strong>First Name:</strong> ${authorInfo.fname}</p>
+        <p><strong>Last Name:</strong> ${authorInfo.lname}</p>
+    </sly>
+
+    <!-- Show Expiry Message if showFields is false -->
+    <sly data-sly-test="${!authorInfo.showFields}">
+        <p style="color:red;">${authorInfo.expiryMessage}</p>
+    </sly>
+
+</sly>
+

@@ -1,0 +1,43 @@
+<p>manual or automation</p>
+<div class="dialogue-box">
+    <div class="dialogue-box-content">
+        <h2>Author Info</h2>
+        <select id="authorSelect">
+            <option value="author1" data-sly-test="${properties.listFrom == 'author1'}" selected>Author 1</option>
+            <option value="author2" data-sly-test="${properties.listFrom == 'author2'}" selected>Author 2</option>
+            <option value="author3" data-sly-test="${properties.listFrom == 'author3'}" selected>Author 3</option>
+            <option value="author4" data-sly-test="${properties.listFrom == 'author4'}" selected>Author 4</option>
+        </select>
+
+        <div id="authorDetails">
+            <div data-sly-test="${properties.listFrom == 'author1'}">
+                <h3>Author 1 Information</h3>
+                <p><strong>First Name:</strong> ${properties.fname}</p>
+                <p><strong>Last Name:</strong> ${properties.lname}</p>
+            </div>
+
+            <div data-sly-test="${properties.listFrom == 'author2'}">
+                <h3>Author 2 Information</h3>
+                <p><strong>First Name:</strong> ${properties.fname}</p>
+                <p><strong>Last Name:</strong> ${properties.lname}</p>
+                <p><strong>Address:</strong> ${properties.address}</p>
+            </div>
+
+            <div data-sly-test="${properties.listFrom == 'author3'}">
+                <h3>Author 3 Information</h3>
+                <p><strong>First Name:</strong> ${properties.fname}</p>
+                <p><strong>Last Name:</strong> ${properties.lname}</p>
+                <p><strong>Phone Number:</strong> ${properties.pnum}</p>
+            </div>
+
+            <div data-sly-test="${properties.listFrom == 'author4'}">
+                <h3>Author 4 Information</h3>
+                <p><strong>First Name:</strong> ${properties.fname}</p>
+                <p><strong>Last Name:</strong> ${properties.lname}</p>
+                <p><strong>Path Field:</strong> ${properties.path}</p>
+            </div>
+        </div>
+
+        <button class="close-btn">Close</button>
+    </div>
+</div>

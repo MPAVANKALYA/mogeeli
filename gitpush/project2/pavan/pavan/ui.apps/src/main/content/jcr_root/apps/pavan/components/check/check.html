@@ -1,0 +1,22 @@
+<h2 style="color:red";border: 2px solid black; text-align: center >Toggle Field</h2>
+
+<label for="enableCheckbox">Enable</label>
+<input type="checkbox" id="enableCheckbox" name="enable" ${properties.checkbox ? 'checked' : ''} />
+
+<div>
+    <input type="text" id="textField" placeholder="Enter your details" name="text" value="${properties.text}" ${properties.checkbox ? 'disabled' : ''} />
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var checkbox = document.getElementById("enableCheckbox");
+        var textField = document.getElementById("textField");
+
+        function toggleTextField() {
+            textField.disabled = checkbox.checked;
+        }
+
+        checkbox.addEventListener("change", toggleTextField);
+        toggleTextField(); // Initialize on page load
+    });
+</script>

@@ -1,0 +1,18 @@
+<p>pavan kalyan</p>
+
+<sly data-sly-use.model="com.pavan.core.models.Model1">
+    <p>Text field: ${model.text}</p>
+     <p>path field: ${model.path}</p>
+      <p>Text area: ${model.text1}</p>
+</sly>
+
+<div class="custom-container">
+    <div class="content-wrapper">
+        <!-- Default Component inside the container -->
+        <sly data-sly-resource="${resource.path @ resourceType='/apps/your-project/components/defaultcomponent'}"></sly>
+
+        <!-- Editable Parsys for adding more components dynamically -->
+        <sly data-sly-resource="${resource.path @ resourceType='wcm/foundation/components/parsys', decoration=true}"></sly>
+    </div>
+</div>
+
