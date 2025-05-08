@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/mogeeli" mode="merge"/>
+    <filter root="/content/mogeeli" mode="merge"/>
+    <filter root="/content/dam/mogeeli" mode="merge"/>
+    <filter root="/content/experience-fragments/mogeeli" mode="merge"/>
+</workspaceFilter>

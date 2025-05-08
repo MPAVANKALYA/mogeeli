@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.4
+Build-Jdk-Spec: 11
+Implementation-Title: mogeeli - All
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.mogeeli:mogeeli.all:1.0.0-SNAPSHOT
+Content-Package-Description: All content package for mogeeli
+Content-Package-Roots: /apps/mogeeli-packages,/apps/mogeeli-vendor-packa
+ ges
+

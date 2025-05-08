@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>mogeeli - UI content</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="acHandling">merge</entry>
+<entry key="dependencies-locations">com.mogeeli:mogeeli.ui.apps:1.0.0-SNAPSHOT=maven:com.mogeeli:mogeeli.ui.apps:1.0.0-SNAPSHOT:zip</entry>
+<entry key="created">2025-05-08T10:59:03.635Z</entry>
+<entry key="groupId">com.mogeeli</entry>
+<entry key="description">UI content package for mogeeli</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">content</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="dependencies">com.mogeeli:mogeeli.ui.apps:1.0.0-SNAPSHOT</entry>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="name">mogeeli.ui.content</entry>
+<entry key="artifactId">mogeeli.ui.content</entry>
+<entry key="group">com.mogeeli</entry>
+</properties>

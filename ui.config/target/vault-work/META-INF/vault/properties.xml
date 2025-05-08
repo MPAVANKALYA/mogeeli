@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>mogeeli - UI config</comment>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="created">2025-05-08T10:59:04.735Z</entry>
+<entry key="groupId">com.mogeeli</entry>
+<entry key="name">mogeeli.ui.config</entry>
+<entry key="description">UI config package for mogeeli</entry>
+<entry key="artifactId">mogeeli.ui.config</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.mogeeli</entry>
+</properties>
