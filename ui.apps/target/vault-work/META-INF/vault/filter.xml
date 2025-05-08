@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/mogeeli/clientlibs"/>
+    <filter root="/apps/mogeeli/components"/>
+    <filter root="/apps/mogeeli/i18n"/>
+</workspaceFilter>

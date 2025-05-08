@@ -1,0 +1,5 @@
+com\mogeeli\core\listeners\SimpleResourceListenerTest.class
+com\mogeeli\core\filters\LoggingFilterTest.class
+com\mogeeli\core\servlets\SimpleServletTest.class
+com\mogeeli\core\models\HelloWorldModelTest.class
+com\mogeeli\core\schedulers\SimpleScheduledTaskTest.class
