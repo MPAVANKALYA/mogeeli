@@ -1,0 +1,25 @@
+<p>hello</p>
+
+
+<p>text:${properties.text}</p>
+<p>path:${properties.path}</p>
+<p>text2:${properties.text2}</p>   
+
+
+
+<sly data-sly-use.hello="com.cba.core.models.Hello">
+
+        <label for="text">Text:</label>
+        <span>${hello.text}</span><br>
+
+          <label for="path">pathfield</label>
+        <span>${hello.path}</span>
+
+         <label for="text2">text2:</label>
+        <span>${hello.text2}</span>
+
+
+
+
+</sly>
+
